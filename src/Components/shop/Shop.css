@@ -1,0 +1,24 @@
+.shop-caontainer{
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    
+}
+
+.products-container{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:45px;
+    margin: 5%;
+}
+
+.cart-container{
+    padding-top: 50px;
+    /* margin: 10px; */
+    text-align: center;
+    height: 100%;
+    background-color:#FF99004D;
+    margin-top: 0;
+    margin-left: 50px;
+}
